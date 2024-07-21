@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color:antiquewhite;
+    color:gray;
+}
+
+.container {
+    font-family:cursive;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header { 
+    background-color:lightskyblue;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+#highlights {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.highlight-item {
+    display: flex;
+    background-color: mistyrose;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.highlight-item img {
+   
+    max-width: 30%; 
+    height: auto;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    object-fit: cover; 
+}
+
+.highlight-text {
+    padding: 20px;
+    flex: 1; 
+}
+
+.highlight-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.highlight-text p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: lightskyblue;
+    color: #fff;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
